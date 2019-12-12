@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Language Learning Time</string>
+
+    <string name="title_activity_full_main_screen">FullMainScreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
