@@ -65,7 +65,7 @@ public class FullMainScreenActivity extends AppCompatActivity {
                 // to the Android system defining the components you are targeting.
                 // Intent to start an activity called SecondActivity with the following code:
 
-                Intent intent = new Intent(FullMainScreenActivity.this, FullMainScreenActivity.class);
+                Intent intent = new Intent(FullMainScreenActivity.this, PhotostoreFront.class);
 
                 // start the activity connect to the specified class
                 startActivity(intent);

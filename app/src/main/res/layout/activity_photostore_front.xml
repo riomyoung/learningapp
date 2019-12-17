@@ -4,6 +4,84 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PhotostoreFront">
+    tools:context=".PhotostoreFront"
+    android:name=".PhotostoreFront"
+    android:screenOrientation="landscape"
+    android:background="@drawable/photostore_background"
+    >
+
+    <ImageView
+        android:id="@+id/meiling"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/meiling"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/text_background"
+        android:background="#CC0099cc"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mei"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/text_background"
+        android:layout_marginStart="20dp"
+        app:layout_constraintTop_toTopOf="@+id/text_background"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, I'm Mei!"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/name"
+        app:layout_constraintTop_toTopOf="@+id/name"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/chinese_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你好，我的名字是美！"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/name"
+        app:layout_constraintTop_toBottomOf="@+id/text"
+        />
+
+    <TextView
+        android:id="@+id/pinyin_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nǐ hǎo, Wǒ de míngzì shì měi!"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="@+id/name"
+        app:layout_constraintTop_toBottomOf="@+id/chinese_text"
+        />
+
+    <ImageButton
+        android:id="@+id/audio"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintRight_toRightOf="@+id/text_background"
+        android:layout_marginRight="20dp"
+        app:layout_constraintTop_toTopOf="@+id/text_background"
+        android:layout_marginTop="10dp"
+        />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
