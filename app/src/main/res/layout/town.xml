@@ -54,11 +54,11 @@
 
     <ImageButton
         android:id="@+id/park"
-        android:layout_width="220dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/photostore"
         app:layout_constraintHorizontal_bias="0.546"
-        app:layout_constraintLeft_toLeftOf="@id/topleft"
+        app:layout_constraintLeft_toRightOf="@id/topleft"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.502" />

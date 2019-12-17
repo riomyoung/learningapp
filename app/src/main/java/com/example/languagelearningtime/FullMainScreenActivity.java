@@ -3,6 +3,7 @@ package com.example.languagelearningtime;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 
@@ -32,28 +33,45 @@ public class FullMainScreenActivity extends AppCompatActivity {
 
 
         home = findViewById(R.id.home );
-        home.setBackgroundResource( R.drawable.ic_launcher_background);
+        home.setBackgroundResource( R.drawable.home);
 
         photostore = findViewById(R.id.photostore );
-        photostore.setBackgroundResource( R.drawable.ic_launcher_background);
+        photostore.setBackgroundResource( R.drawable.photostore);
 
         bookstore = findViewById(R.id.bookstore );
-        bookstore.setBackgroundResource( R.drawable.ic_launcher_background);
+        bookstore.setBackgroundResource( R.drawable.bookstore);
 
         topleft = findViewById(R.id.topleft);
-        topleft.setBackgroundResource( R.drawable.ic_launcher_background);
+        topleft.setBackgroundResource( R.drawable.cafe);
 
         park = findViewById(R.id.park );
-        park.setBackgroundResource( R.drawable.ic_launcher_background);
+        park.setBackgroundResource( R.drawable.park);
 
         restaurant = findViewById(R.id.restaurant );
-        restaurant.setBackgroundResource( R.drawable.ic_launcher_background);
+        restaurant.setBackgroundResource( R.drawable.restaurant);
 
         grocerystore= findViewById(R.id.grocerystore );
-        grocerystore.setBackgroundResource( R.drawable.ic_launcher_background);
+        grocerystore.setBackgroundResource( R.drawable.grocery_store);
 
         movietheater = findViewById(R.id.movietheater );
-        movietheater.setBackgroundResource( R.drawable.ic_launcher_background);
+        movietheater.setBackgroundResource( R.drawable.movie_theater);
+
+        photostore.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View view) {
+
+
+                // Intents are objects of the android.content.Intent type. Your code can send them
+                // to the Android system defining the components you are targeting.
+                // Intent to start an activity called SecondActivity with the following code:
+
+                Intent intent = new Intent(FullMainScreenActivity.this, FullMainScreenActivity.class);
+
+                // start the activity connect to the specified class
+                startActivity(intent);
+
+            }
+        });
 
     }
 
