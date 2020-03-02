@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="book1">
+        <item>我想要买东西！</item>
+        <item>这个多少钱？</item>
+        <item>这个是十块钱。</item>
+        <item>太贵了！</item>
+        <item>这个多少钱？</item>
+        <item>这个是三块钱。</item>
+        <item>太小了！</item>
+        <item>这个多少钱？</item>
+        <item>这个是六块钱。</item>
+        <item>太大了！</item>
+        <item>这个多少钱？</item>
+        <item>这个是五块钱。</item>
+        <item>我想买这个！</item>
+        <item>xxx</item>
+        <item>Wǒ xiǎng yāomǎi dōngxī!</item>
+        <item>Zhège duōshǎo qián?</item>
+        <item>Zhège shì shí kuài qián</item>
+        <item>tài guìle!</item>
+        <item>Zhège duōshǎo qián?</item>
+        <item>Zhège shì sān kuài qián</item>
+        <item>tài xiǎole!</item>
+        <item>Zhège duōshǎo qián?</item>
+        <item>Zhège shì liù kuài qián</item>
+        <item>tài dàle!</item>
+        <item>Zhège duōshǎo qián?</item>
+        <item>Zhège shì wǔ kuài qián</item>
+        <item>wǒ xiǎng mǎi zhège!</item>
+        <item>xxx</item>
+        <item>I want to buy something!</item>
+        <item>How money does this cost?</item>
+        <item>This is ten dollars</item>
+        <item>Too expensive!</item>
+        <item>How money does this cost?</item>
+        <item>This is three yuan</item>
+        <item>Too small!</item>
+        <item>How money does this cost?</item>
+        <item>This is six dollars</item>
+        <item>Too big!</item>
+        <item>How money does this cost?</item>
+        <item>This is five dollars</item>
+        <item>I want to buy this!</item>
+        <item>xxx</item>
+
+    </string-array>
+</resources>

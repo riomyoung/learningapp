@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="book2">
+        <item>我的弟弟在哪里？</item>
+        <item>这是公园!</item>
+        <item>我的弟弟在这里吗？</item>
+        <item>我的弟弟不在这里。</item>
+        <item>这是书店！</item>
+        <item>我的弟弟在这里吗？</item>
+        <item>我的弟弟不在这里。</item>
+        <item>这时咖啡店！</item>
+        <item>我的弟弟在这里吗？</item>
+        <item>我的弟弟不在这里。</item>
+        <item>这是我的家！</item>
+        <item>我的弟弟在这里吗？</item>
+        <item>我的弟弟在这里！</item>
+        <item>xxx</item>
+        <item>Wǒ de dìdì zài nǎlǐ?</item>
+        <item>Zhè shì gōngyuán!</item>
+        <item>Wǒ de dìdì zài zhèlǐ ma?</item>
+        <item>Wǒ de dìdì bùzài zhèlǐ.</item>
+        <item>Zhè shì shūdiàn!</item>
+        <item>Wǒ de dìdì zài zhèlǐ ma?</item>
+        <item>Wǒ de dìdì bùzài zhèlǐ.</item>
+        <item>Zhè shí kāfēi diàn!</item>
+        <item>Wǒ de dìdì zài zhèlǐ ma?</item>
+        <item>Wǒ de dìdì bùzài zhèlǐ.</item>
+        <item>Zhè shì wǒ de jiā!</item>
+        <item>Wǒ de dìdì zài zhèlǐ ma?</item>
+        <item>Wǒ de dìdì zài zhèlǐ!</item>
+        <item>xxx</item>
+        <item>Where is my little brother?</item>
+        <item>This is a park!</item>
+        <item>Is my little brother here?</item>
+        <item>My little brother is not here</item>
+        <item>This is the bookstore!</item>
+        <item>Is my little brother here?</item>
+        <item>My little brother is not here</item>
+        <item>This is a coffee shop!</item>
+        <item>Is my little brother here?</item>
+        <item>My little brother is not here</item>
+        <item>This is my house!</item>
+        <item>Is my little brother here?</item>
+        <item>My little brother is here!</item>
+        <item>xxx</item>
+    </string-array>
+
+
+</resources>
