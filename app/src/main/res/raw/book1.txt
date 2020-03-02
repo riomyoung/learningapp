@@ -1,0 +1,41 @@
+我想要买东西！ x
+这个多少钱？ x
+这个是十块钱。 x
+太贵了！ x
+这个多少钱？ x
+这个是三块钱。 x
+太小了！ x
+这个多少钱？ x
+这个是六块钱。 x
+太大了！ x
+这个多少钱？ x
+这个是五块钱。 x
+我想买这个！ x
+ x
+Wǒ xiǎng yāomǎi dōngxī! x
+Zhège duōshǎo qián? x
+Zhège shì shí kuài qián x
+tài guìle! x
+Zhège duōshǎo qián? x
+Zhège shì sān kuài qián x
+tài xiǎole! x
+Zhège duōshǎo qián? x
+Zhège shì liù kuài qián x
+tài dàle! x
+Zhège duōshǎo qián? x
+Zhège shì wǔ kuài qián x
+wǒ xiǎng mǎi zhège! x
+ x
+I want to buy something! x
+How money does this cost? x
+This is ten dollars x
+Too expensive! x
+How money does this cost? x
+This is three yuan x
+Too small! x
+How money does this cost? x
+This is six dollars x
+Too big! x
+How money does this cost? x
+This is five dollars x
+I want to buy this! x
